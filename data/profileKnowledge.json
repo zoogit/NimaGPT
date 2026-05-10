@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "name": "Nima M",
+    "title": "Design Manager and Creative Leader",
+    "location": "Los Angeles, California",
+    "summary": "Design Manager and Creative Leader with over 15 years of experience spanning presentation design, branding, web design, UI/UX, front-end development, and AI-assisted workflow design. Known for mentoring creative teams, improving operational processes, and delivering polished, business-critical work under tight deadlines.",
+    "positioningStatement": "Nima combines design leadership, technical curiosity, and operational thinking to build systems, workflows, and digital experiences that improve both creative quality and team efficiency."
+  },
+
+  "careerTargets": {
+    "targetRoles": [
+      "Design Manager",
+      "Creative Director",
+      "Associate Creative Director",
+      "Senior Product Designer",
+      "Design Systems Lead",
+      "Creative Technologist"
+    ],
+    "preferredEnvironment": [
+      "Design-driven companies",
+      "Consumer brands",
+      "Small to mid-sized organizations",
+      "Collaborative and creative cultures",
+      "Hybrid work environments"
+    ],
+    "minimumSalary": "$100K",
+    "idealSalary": "$110K+",
+    "longTermGoal": "Lead a highly creative team and eventually build AI-enabled software products for creative and operational teams."
+  },
+
+  "skillCategories": {
+    "AI": {
+      "skills": [
+        "Prompt engineering",
+        "LLM workflow design",
+        "Knowledge base structuring",
+        "OpenAI API integration",
+        "AI-assisted coding",
+        "AI-assisted design ideation",
+        "Workflow automation",
+        "Rapid prototyping"
+      ],
+      "evidence": [
+        "Built a portfolio AI assistant using a structured JSON knowledge base and the OpenAI API.",
+        "Uses large language models to prototype software, refine workflows, and generate operational strategies.",
+        "Uses AI to accelerate coding, documentation, resume development, and creative ideation."
+      ]
+    },
+
+    "Software": {
+      "skills": [
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe InDesign",
+        "Adobe After Effects",
+        "Microsoft PowerPoint",
+        "Keynote",
+        "WordPress",
+        "Next.js",
+        "React",
+        "JavaScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "Supabase",
+        "Git",
+        "Visual Studio Code"
+      ]
+    },
+
+    "Leadership": {
+      "skills": [
+        "Design team management",
+        "Creative direction",
+        "Mentoring and coaching",
+        "Quality control",
+        "Workflow optimization",
+        "Operational process improvement",
+        "Cross-functional collaboration",
+        "Stakeholder management",
+        "Project prioritization",
+        "Presentation storytelling"
+      ]
+    }
+  },
+
+  "professionalExperience": [
+    {
+      "company": "Houlihan Lokey",
+      "location": "Los Angeles, California",
+      "period": "2017–Present",
+      "summary": "Progressed from Presentation Designer to Creative Lead and ultimately Design Manager, leading a global team responsible for high-stakes presentation and design work for investment banking and corporate communications.",
+      "roles": [
+        {
+          "title": "Presentation Designer",
+          "period": "2017–2020",
+          "focus": [
+            "Designed and formatted confidential client presentations for investment banking transactions.",
+            "Created visually polished pitch books, management presentations, and marketing materials under tight deadlines.",
+            "Developed deep expertise in presentation design, layout systems, and financial communication."
+          ]
+        },
+        {
+          "title": "Supervisor / Creative Lead",
+          "period": "2020–2022",
+          "focus": [
+            "Provided creative direction and quality control for designers and specialists.",
+            "Mentored team members and helped raise overall design standards.",
+            "Led training initiatives and established best practices for visual consistency and efficiency."
+          ]
+        },
+        {
+          "title": "Design Manager",
+          "period": "2022–Present",
+          "focus": [
+            "Manage a global presentation and design team supporting high-priority client and internal requests.",
+            "Oversee staffing, workflow coordination, quality control, and team development.",
+            "Partner with project coordinators, stakeholders, and international teams to improve operational efficiency.",
+            "Develop training programs, workshops, and process improvements.",
+            "Prototype internal tools and AI-assisted workflows to enhance productivity and consistency."
+          ]
+        }
+      ],
+      "notableAchievements": [
+        "Earned multiple promotions reflecting strong creative performance and leadership capability.",
+        "Built and scaled training and quality-control initiatives to improve output consistency.",
+        "Designed operational tools and workflow concepts to improve team scheduling and resource visibility.",
+        "Led process improvements involving ServiceNow, team coordination, and global handoffs."
+      ],
+      "confidentialityNote": "Most work produced at Houlihan Lokey is confidential and cannot be publicly displayed, but the experience reflects extensive leadership in high-pressure, design-intensive environments."
+    }
+  ],
+
+  "portfolioProjects": [
+    {
+      "name": "WanderLuxe Tours",
+      "type": "Branding and Website Design",
+      "role": "Brand Designer and Web Designer",
+      "summary": "Created the full brand identity and website for a luxury custom travel company specializing in tours to Egypt.",
+      "skillsDemonstrated": [
+        "Brand identity",
+        "Logo design",
+        "Web design",
+        "Content organization",
+        "Client collaboration"
+      ],
+      "talkingPoints": [
+        "Designed the logo and visual identity system.",
+        "Created a premium and aspirational website experience.",
+        "Developed the full customer-facing digital presence."
+      ]
+    },
+    {
+      "name": "Hand Brewed Beer",
+      "type": "Branding and Packaging Design",
+      "role": "Graphic Designer and Creative Partner",
+      "summary": "Created packaging, merchandise, billboard designs, and promotional assets for a Southern California craft brewery.",
+      "skillsDemonstrated": [
+        "Packaging design",
+        "Merchandise design",
+        "Advertising",
+        "Brand application"
+      ],
+      "talkingPoints": [
+        "Designed annual mug club merchandise.",
+        "Created billboard and promotional campaigns.",
+        "Supported a growing local consumer brand."
+      ]
+    },
+    {
+      "name": "Portfolio AI Assistant",
+      "type": "AI-Powered Portfolio Experience",
+      "role": "Product Designer, Prompt Engineer, and Front-End Developer",
+      "summary": "Built an interactive AI assistant that answers questions about professional experience, skills, and portfolio work.",
+      "skillsDemonstrated": [
+        "OpenAI API integration",
+        "Prompt engineering",
+        "React",
+        "Knowledge base design",
+        "Interaction design"
+      ],
+      "talkingPoints": [
+        "Created a structured JSON knowledge base.",
+        "Integrated the OpenAI API through a secure server-side route.",
+        "Designed a conversational interface for recruiters and hiring managers."
+      ]
+    },
+    {
+      "name": "Team Scheduler Visualizer",
+      "type": "Operational Software Prototype",
+      "role": "Product Designer and Front-End Developer",
+      "summary": "Designed and built a visual scheduling application to manage team capacity and ticket assignments.",
+      "skillsDemonstrated": [
+        "Product design",
+        "React",
+        "Supabase",
+        "Workflow analysis",
+        "Operational thinking"
+      ],
+      "talkingPoints": [
+        "Modeled real-world staffing and scheduling constraints.",
+        "Implemented drag-and-drop ticket assignment.",
+        "Created a foundation for a future SaaS product."
+      ]
+    }
+  ],
+
+  "differentiators": [
+    "Combines design leadership with technical implementation.",
+    "Bridges creative direction, operations, and software prototyping.",
+    "Able to adapt to many visual styles and brand systems.",
+    "Strong mentor and team builder.",
+    "Uses AI strategically to improve workflows and accelerate execution."
+  ],
+
+  "interests": [
+    "AI-powered creative tools",
+    "Workflow software",
+    "Brand design",
+    "Product design",
+    "Front-end development",
+    "Building SaaS products"
+  ],
+
+  "assistantBehavior": {
+    "tone": "Professional, concise, confident, and human.",
+    "rules": [
+      "Only answer using information in this knowledge base.",
+      "If a requested detail is not included, say the portfolio does not currently provide that information.",
+      "Do not exaggerate experience.",
+      "Frame technical skills as practical and prototype-driven where appropriate.",
+      "Recommend relevant portfolio projects when useful."
+    ]
+  }
+}
