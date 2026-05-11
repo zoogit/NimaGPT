@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import styles from "./PortfolioAssistant.module.css";
 
 const starterQuestions = [
@@ -21,6 +21,7 @@ export default function PortfolioAssistant() {
   const [question, setQuestion] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const messagesEndRef = useRef(null);
 
   const canSubmit = useMemo(
     () => question.trim().length > 0 && !isLoading,
@@ -91,6 +92,13 @@ export default function PortfolioAssistant() {
 
   const visibleMessages = messages.slice(1);
   const hasConversation = visibleMessages.length > 0 || isLoading;
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "end"
+    });
+  }, [messages, isLoading]);
 
   return (
     <section className={styles.assistantSection} aria-labelledby="portfolio-assistant-title">
@@ -163,6 +171,8 @@ export default function PortfolioAssistant() {
                   <p>Thinking...</p>
                 </div>
               )}
+
+              <div ref={messagesEndRef} aria-hidden="true" />
             </div>
 
             <form className={styles.inputRow} onSubmit={handleSubmit}>
