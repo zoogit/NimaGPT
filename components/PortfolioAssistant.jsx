@@ -21,6 +21,7 @@ export default function PortfolioAssistant() {
   const [question, setQuestion] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const messagesRef = useRef(null);
   const messagesEndRef = useRef(null);
 
   const canSubmit = useMemo(
@@ -94,9 +95,16 @@ export default function PortfolioAssistant() {
   const hasConversation = visibleMessages.length > 0 || isLoading;
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "end"
+    window.requestAnimationFrame(() => {
+      if (messagesRef.current) {
+        messagesRef.current.scrollTop = messagesRef.current.scrollHeight;
+        return;
+      }
+
+      messagesEndRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "end"
+      });
     });
   }, [messages, isLoading]);
 
@@ -150,7 +158,7 @@ export default function PortfolioAssistant() {
               </button>
             </div>
 
-            <div className={styles.messages} aria-live="polite">
+            <div className={styles.messages} aria-live="polite" ref={messagesRef}>
               {visibleMessages.map((message, index) => (
                 <div
                   className={`${styles.message} ${
