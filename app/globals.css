@@ -20,3 +20,279 @@ button,
 input {
   font: inherit;
 }
+
+a {
+  color: inherit;
+}
+
+.portfolio-page {
+  width: min(100%, 1180px);
+  margin: 0 auto;
+  padding: 28px 20px 72px;
+}
+
+.home-page {
+  min-height: 100dvh;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 8px 0 48px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.top-nav a {
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.page-hero {
+  max-width: 850px;
+  padding: clamp(36px, 9vw, 110px) 0 clamp(36px, 6vw, 70px);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #667085;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-hero h1 {
+  margin: 0;
+  color: #101010;
+  font-size: clamp(3.4rem, 10vw, 8rem);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0.92;
+}
+
+.page-hero p {
+  max-width: 760px;
+  margin: 22px 0 0;
+  color: #344054;
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  line-height: 1.7;
+}
+
+.page-hero .hero-title {
+  margin-top: 18px;
+  color: #111111;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.intro-band {
+  margin-bottom: 54px;
+  border-top: 1px solid #d8dde6;
+  border-bottom: 1px solid #d8dde6;
+  padding: 28px 0;
+}
+
+.intro-band p {
+  max-width: 900px;
+  margin: 0;
+  color: #1d2939;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  color: #101010;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.case-card {
+  display: flex;
+  min-height: 320px;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #d8dde6;
+  border-radius: 8px;
+  padding: 22px;
+  background: #ffffff;
+}
+
+.case-card h2,
+.case-card h3 {
+  margin: 0 0 14px;
+  color: #111111;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  line-height: 1.04;
+}
+
+.case-card p:not(.eyebrow) {
+  margin: 0 0 22px;
+  color: #475467;
+  line-height: 1.6;
+}
+
+.case-card a,
+.case-links a {
+  align-self: flex-start;
+  border-bottom: 2px solid #101010;
+  color: #101010;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.skills-summary,
+.case-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 54px;
+}
+
+.skills-summary article,
+.case-highlights p {
+  margin: 0;
+  border: 1px solid #d8dde6;
+  border-radius: 8px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.skills-summary h2 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+}
+
+.skills-summary p,
+.case-highlights p {
+  color: #475467;
+  line-height: 1.6;
+}
+
+.case-study {
+  max-width: 920px;
+}
+
+.case-study-header {
+  padding: clamp(34px, 8vw, 94px) 0 36px;
+}
+
+.case-study-header h1 {
+  margin: 0;
+  color: #101010;
+  font-size: clamp(2.7rem, 7vw, 6rem);
+  line-height: 0.95;
+}
+
+.case-study-header > p {
+  max-width: 780px;
+  color: #344054;
+  font-size: 1.18rem;
+  line-height: 1.7;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 30px 0;
+}
+
+.case-meta div {
+  border-top: 1px solid #d8dde6;
+  padding-top: 14px;
+}
+
+.case-meta dt {
+  color: #667085;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.case-meta dd {
+  margin: 8px 0 0;
+  color: #101010;
+  font-weight: 750;
+  line-height: 1.5;
+}
+
+.case-note {
+  border-left: 4px solid #101010;
+  padding-left: 18px;
+}
+
+.case-sections {
+  display: grid;
+  gap: 28px;
+  margin-top: 46px;
+}
+
+.case-sections section {
+  border-top: 1px solid #d8dde6;
+  padding-top: 24px;
+}
+
+.case-sections h2,
+.case-links h2 {
+  margin: 0 0 12px;
+  color: #101010;
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+}
+
+.case-sections p {
+  margin: 0;
+  color: #344054;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.case-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 46px;
+  border-top: 1px solid #d8dde6;
+  padding-top: 24px;
+}
+
+@media (max-width: 860px) {
+  .case-grid,
+  .skills-summary,
+  .case-highlights,
+  .case-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .case-card {
+    min-height: 260px;
+  }
+
+  .top-nav {
+    padding-bottom: 24px;
+  }
+}

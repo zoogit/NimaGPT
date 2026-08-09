@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import OpenAI from "openai";
+import { caseStudies } from "../../../data/caseStudies";
 
 const knowledgePath = path.join(process.cwd(), "data", "profileKnowledge.json");
 
@@ -21,6 +22,10 @@ export async function POST(request) {
     }
 
     const profileKnowledge = JSON.parse(await readFile(knowledgePath, "utf8"));
+    const portfolioKnowledge = {
+      ...profileKnowledge,
+      caseStudies
+    };
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
     // The knowledge base is intentionally injected directly for the MVP.
@@ -37,7 +42,7 @@ export async function POST(request) {
         {
           role: "user",
           content: `Portfolio knowledge base:\n${JSON.stringify(
-            profileKnowledge,
+            portfolioKnowledge,
             null,
             2
           )}\n\nVisitor question: ${question}`

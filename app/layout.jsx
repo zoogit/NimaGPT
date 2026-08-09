@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Ask My AI Assistant",
-  description: "Interactive portfolio assistant for Nima."
+  title: "Nima Maghame | Design Manager & Creative Leader",
+  description:
+    "Portfolio of Nima Maghame, a design manager and creative leader focused on branding, digital products, creative operations, and AI-assisted workflows."
 };
 
 export default function RootLayout({ children }) {
