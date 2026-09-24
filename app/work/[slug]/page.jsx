@@ -84,10 +84,18 @@ export default async function CaseStudyPage({ params }) {
             >
               <div className="design-system-portal">
                 <div className="design-system-portal-screen">
-                  <img
-                    src={caseStudy.designSystemShowcase.image}
-                    alt={`${caseStudy.shortName} design system preview`}
-                  />
+                  {caseStudy.designSystemShowcase.livePreview ? (
+                    <iframe
+                      src={caseStudy.designSystemShowcase.href}
+                      title={`${caseStudy.shortName} design system live preview`}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <img
+                      src={caseStudy.designSystemShowcase.image}
+                      alt={`${caseStudy.shortName} design system preview`}
+                    />
+                  )}
                 </div>
               </div>
             </a>

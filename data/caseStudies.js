@@ -76,6 +76,7 @@ export const caseStudies = [
     designSystemShowcase: {
       href: "https://getmastertemplate.com/design-system",
       image: "/Assets/DesignSystems/master-template.png",
+      livePreview: true,
       theme: "master",
       heading: "Design System Breakdown",
       body:
