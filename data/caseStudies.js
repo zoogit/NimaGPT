@@ -185,6 +185,7 @@ export const caseStudies = [
     designSystemShowcase: {
       href: "https://thunderwebsite.netlify.app/design-system",
       image: "/Assets/DesignSystems/thunder.png",
+      livePreview: true,
       theme: "thunder",
       heading: "Design System Breakdown",
       body:
