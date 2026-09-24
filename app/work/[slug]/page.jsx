@@ -70,33 +70,27 @@ export default async function CaseStudyPage({ params }) {
             className={`design-system-showcase design-system-showcase-${caseStudy.designSystemShowcase.theme}`}
             aria-labelledby="design-system-showcase-title"
           >
+            <div className="design-system-copy">
+              <h2 id="design-system-showcase-title">{caseStudy.designSystemShowcase.heading}</h2>
+              <p>{caseStudy.designSystemShowcase.body}</p>
+            </div>
+
             <a
-              className="design-system-hit-target"
+              className="design-system-portal-link"
               href={caseStudy.designSystemShowcase.href}
               rel="noreferrer"
               target="_blank"
               aria-label={`Open ${caseStudy.shortName} design system`}
-            />
-            <div className="design-system-copy">
-              <h2 id="design-system-showcase-title">{caseStudy.designSystemShowcase.heading}</h2>
-              <p>{caseStudy.designSystemShowcase.body}</p>
-              <span className="design-system-cta">Open design system</span>
-            </div>
-
-            <div className="design-system-portal" aria-hidden="true">
-              <div className="design-system-portal-topbar">
-                <span />
-                <span />
-                <span />
-                <p>{caseStudy.designSystemShowcase.href.replace(/^https?:\/\//, "")}</p>
+            >
+              <div className="design-system-portal">
+                <div className="design-system-portal-screen">
+                  <img
+                    src={caseStudy.designSystemShowcase.image}
+                    alt={`${caseStudy.shortName} design system preview`}
+                  />
+                </div>
               </div>
-              <div className="design-system-portal-screen">
-                <img
-                  src={caseStudy.designSystemShowcase.image}
-                  alt={`${caseStudy.shortName} design system preview`}
-                />
-              </div>
-            </div>
+            </a>
           </section>
         )}
 
