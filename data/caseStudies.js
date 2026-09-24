@@ -67,8 +67,20 @@ export const caseStudies = [
       {
         label: "Master Template website",
         href: "https://getmastertemplate.com/"
+      },
+      {
+        label: "Master Template design system",
+        href: "https://getmastertemplate.com/design-system"
       }
     ],
+    designSystemShowcase: {
+      href: "https://getmastertemplate.com/design-system",
+      image: "/Assets/DesignSystems/master-template.png",
+      theme: "master",
+      heading: "Design System Breakdown",
+      body:
+        "The system is sleek, modern, and bold, built to speak the language of pitch-deck-centric teams across consulting, finance, marketing, startups, and enterprise sales. High contrast, sharp typography, and restrained accent color draw customers into a professional product story that feels fast, confident, and polished."
+    },
     sections: [
       {
         heading: "The Situation",
@@ -89,6 +101,11 @@ export const caseStudies = [
         heading: "My Approach",
         body:
           "I developed a clean, business-forward visual identity that prioritizes clarity and confidence. Sharp typography, structured layouts, and a restrained color system work across product UI, marketing, and campaign contexts without losing consistency."
+      },
+      {
+        heading: "Design System",
+        body:
+          "I added a public design-system page for Master Template so the brand could be evaluated as a working system, not just a finished marketing surface. It defines the Paper, Coal, and Blaze color model, typography scale, button behavior, layout rules, reusable component patterns, motion standards, and the do/don't rules that keep the product experience consistent."
       },
       {
         heading: "Results",
@@ -158,8 +175,20 @@ export const caseStudies = [
       {
         label: "Thunder website",
         href: "https://thunderwebsite.netlify.app/"
+      },
+      {
+        label: "Thunder design system",
+        href: "https://thunderwebsite.netlify.app/design-system"
       }
     ],
+    designSystemShowcase: {
+      href: "https://thunderwebsite.netlify.app/design-system",
+      image: "/Assets/DesignSystems/thunder.png",
+      theme: "thunder",
+      heading: "Design System Breakdown",
+      body:
+        "The system translates territory-era wrestling into a vivid game interface: deep navy stages, punchy arcade accents, chunky readable type, and pixel-informed components that feel nostalgic without becoming muddy. Every choice supports quick scanning, dramatic presentation, and the fantasy of booking a show from behind the curtain."
+    },
     sections: [
       {
         heading: "The Concept",
@@ -201,8 +230,20 @@ export const caseStudies = [
       {
         label: "WanderLuxe Tours website",
         href: "https://wanderluxetours.com/"
+      },
+      {
+        label: "WanderLuxe design system",
+        href: "https://www.wanderluxetours.com/design-system"
       }
     ],
+    designSystemShowcase: {
+      href: "https://www.wanderluxetours.com/design-system",
+      image: "/Assets/DesignSystems/wanderluxe.png",
+      theme: "wanderluxe",
+      heading: "Design System Breakdown",
+      body:
+        "The system is calm, editorial, and luxurious, using warm sand neutrals, a restrained gold accent, serif headings, and modern body copy to make bespoke travel feel premium but approachable. It prioritizes trust, scan-friendly itinerary details, and generous rhythm so visitors can picture the experience before they enquire."
+    },
     sections: [
       {
         heading: "Deliverables",
