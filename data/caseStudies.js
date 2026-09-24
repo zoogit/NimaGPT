@@ -241,6 +241,7 @@ export const caseStudies = [
     designSystemShowcase: {
       href: "https://www.wanderluxetours.com/design-system",
       image: "/Assets/DesignSystems/wanderluxe.png",
+      livePreview: true,
       theme: "wanderluxe",
       heading: "Design System Breakdown",
       body:
